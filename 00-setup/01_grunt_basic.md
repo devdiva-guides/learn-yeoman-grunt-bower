@@ -7,8 +7,7 @@ http://gruntjs.com/getting-started
 Our goal is to make sure everything installed and works.  Not to mention, get a feel for the features.  As long as you don't get an error... this is all good!
 
 ```bash
-mkdir -p ~/workspace/scratch/devmunch/using_grunt/000_setup/01_grunt && cd  ~/workspace/scratch/devmunch/using_grunt/000_setup/01_grunt
-
+mkdir -p ~/workspace/scratch/learn-yogrunt/higrunt && cd ~/workspace/scratch/learn-yogrunt/higrunt
 ```
 
 If the following command does not return a response, go back to 00_install_setup.sh

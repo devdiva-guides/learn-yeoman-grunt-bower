@@ -18,9 +18,15 @@ To take advantage of this modern, front-end development toolchain you will need 
 
 ### Mac OS X
 
-Install the Xcode CLI Tools.  Either via Xcode > Preferences > Downloads or, _if you are using Mavericks_, simply launch the terminal and type the following command:
+#### Install the XCode CLI Tools
 
-```
+*Prior to Mavericks* 
+Either via Xcode > Preferences > Downloads
+
+*Mavericks* 
+Simply launch the terminal and type the following command:
+
+```bash
 xcode-select --install
 ```
 
@@ -28,20 +34,38 @@ Open your terminal and type the following commands to see if you already have an
 
 ```bash
 yo
+```
+
+```bash
 yo --version
+```
+
+```bash
 which yo
 ```
 
 
 ```bash
 bower
+```
+
+```bash
 bower --version
+```
+
+```bash
 which bower
 ```
 
 ```bash
 grunt
+```
+
+```bash
 grunt --version
+```
+
+```bash
 which grunt
 ```
 
@@ -49,6 +73,7 @@ If you get a response for any of these, then it means you already have the tool 
 
 
 Either download an installer package or use a package manager to install Node.js:
+
 * http://nodejs.org/download/
 * https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
 
@@ -56,13 +81,25 @@ Test your installation to confirm you have node and npm.
 
 ```bash
 node
+```
+
+```bash
 node --version
+```
+
+```bash
 which node
 ```
 
 ```bash
 npm
+```
+
+```bash
 npm --version
+```
+
+```bash
 which npm
 ```
 
@@ -85,7 +122,7 @@ npm install -g yo
 
 ### Windows
 
-_TODO add windows setup._
+_TODO add windows setup. Volunteers?_
 
 
 ## Setup
@@ -105,35 +142,19 @@ cd ~/workspace/scratch
 ```
 
 ```bash
-mkdir devmunch
+mkdir learn-yogrunt
 ```
 
 ```bash
-cd devmunch
+cd learn-yogrunt
 ```
-
-```bash
-mkdir using_grunt
-```
-
-```bash
-cd using_grunt
-```
-
-```bash
-mkdir 000_setup
-```
-
-```bash
-cd 000_setup
-```
-
 
 _if you want to get a little fancy on the command line. try flattening all of the above to the following._
 
 ```bash
-mkdir -p ~/workspace/scratch/devmunch/using_grunt/000_setup && cd ~/workspace/scratch/devmunch/using_grunt/000_setup
+mkdir -p ~/workspace/scratch/learn-yogrunt && cd ~/workspace/scratch/learn-yogrunt
 ```
+
 
 You should see your command prompt's context change.  If in doubt, type `pwd` to print your working directory and confirm where you are.
 

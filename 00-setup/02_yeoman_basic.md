@@ -6,8 +6,7 @@ http://yeoman.io/gettingstarted.html
 Our goal is to make sure everything installed and works.  Not to mention, get a feel for the features.  As long as you don't get an error... this is all good!
 
 ```bash
-mkdir -p ~/workspace/scratch/devmunch/using_grunt/000_setup/02_yo && cd  ~/workspace/scratch/devmunch/using_grunt/000_setup/02_yo
-
+mkdir -p ~/workspace/scratch/learn-yogrunt/hiyo && cd ~/workspace/scratch/learn-yogrunt/hiyo
 ```
 
 You should see your command prompt's context change.  If in doubt, type `pwd` to print your working directory and confirm where you are.
@@ -75,6 +74,23 @@ vi app/index.html
 ```
 
 Find "'Allo, 'Allo!" and replace with "Hello, Hello!"
+
+
+```bash
+sed -i.bak 's/Allo/Hello/g' app/index.html
+```
+
+Save your changes.
+
+Observe.  What happened?
+
+
+Then switch it back.
+
+```bash
+sed -i.bak 's/Hello/Allo/g' app/index.html
+```
+
 
 Save your changes.
 
