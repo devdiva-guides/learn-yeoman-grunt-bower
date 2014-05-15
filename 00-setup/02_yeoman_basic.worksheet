@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CurrentWorkingDirectory</key>
+	<string>/Users/hd</string>
+	<key>WorksheetContents</key>
+	<string>#		YEOMAN BASIC "Hello World"## 	Make a folder for your first nodejs yeoman project.## 	```bash# 	mkdir -p ~/workspace/scratch/learn-yogrunt/hiyo &amp;&amp; cd ~/workspace/scratch/learn-yogrunt/hiyo# 	```# 	Install the yeoman web app generator.# # 	```bash# 	npm install -g generator-webapp# 	```# 	Run the web app generator.# # 	```bash# 	yo webapp# 	```# 	Start the grunt serve task.# # 	```bash# 	grunt serve# 	```# 	Change soemthing and see what happens (in your browser)# # 	```bash# 	sed -i.bak 's/Allo/Hello/g' app/index.html# 	```# # 	```bash# 	sed -i.bak 's/Hello/Allo/g' app/index.html# 	```</string>
+</dict>
+</plist>

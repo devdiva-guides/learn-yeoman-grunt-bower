@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CurrentWorkingDirectory</key>
+	<string>/Users/hd</string>
+	<key>WorksheetContents</key>
+	<string>#		CHECK FOR PRE-EXISTING INSTALL## 	Check if the tools are already installed. If you get a response for any of these, # 	then it means you already have the tool you need installed.### 	```bash# 	yo# 	yo --version# 	which yo# 	```# # 	```bash# 	bower# 	bower --version# 	which bower# 	```# # 	```bash# 	grunt# 	grunt --version# 	which grunt# 	```# # 	```bash# 	node# 	node --version# 	which node# 	```# # 	```bash# 	npm# 	npm --version# 	which npm# 	```# 	INSTALL NODE (OS X)# # 	Using the Brew package manager:# 	# 	```bash# 	brew install node# 	```## 	Or, download and launch the package installer: # # 	```bash# 	curl -O http://nodejs.org/dist/v0.10.28/node-v0.10.28.pkg &amp;&amp; open node*.pkg# 	```## 	Test your Node install, the following commands should show a response message.# # 	```bash# 	node# 	node --version# 	which node# 	```# # 	```bash# 	npm# 	npm --version# 	which npm# 	```# 	INSTALL YEOMAN (YO, GRUNT, BOWER)# # 	```bash# 	npm install -g yo# 	```# # 	_if your npm version &lt; 1.2.10 then you will also have to install grunt and bower._# # 	```bash# 	npm install -g yo# 	```# 	CREATE A WORKING FOLDER# # 	You can do all the following commands individually...# # 	```bash# 	cd ~/workspace/scratch# 	```# # 	```bash# 	mkdir learn-yogrunt# 	```# # 	```bash# 	cd learn-yogrunt# 	```# # 	... or flatten them into a compoound command like this:# # 	```bash# 	mkdir -p ~/workspace/scratch/learn-yogrunt &amp;&amp; cd ~/workspace/scratch/learn-yogrunt# 	```# 	Sanity check and make sure you are in the right spot...# # 	```bash# 	pwd# 	```# 	DONE WITH SETUP ACTIVITY!# 	Next: Grunt Basics # 	Next: Yeoman Basics</string>
+</dict>
+</plist>
