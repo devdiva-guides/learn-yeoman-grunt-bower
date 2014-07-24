@@ -106,7 +106,7 @@ which npm
 
 Follow the instructions for installing yeoman:
 
-http://yeoman.io/gettingstarted.html
+http://yeoman.io/learning/
 
 ```bash
 npm install -g yo
