@@ -115,14 +115,61 @@ npm install -g yo
 _if your npm version < 1.2.10 then you will also have to install grunt and bower._
 
 ```bash
-npm install -g yo
+npm install -g grunt-cli bower
 ```
 
 
 
 ### Windows
 
-_TODO add windows setup. Volunteers?_
+__section is very draft__
+
+<!-- 
+Note: this is repetitive, probably need to restructure setup instructions:
+* start with OS X vs Windows pre-reqs?
+* or do separate tutorial for OS X / *nix versus Windows?
+-->
+Either download an installer package or use a package manager to install Node.js:
+
+* http://nodejs.org/download/
+* https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
+
+Follow the install instructions.
+
+
+Once installed, you can launch the Node.js command shell.
+Start > Programs > Node.js > Node.js
+
+__Describe using node with cmd prompt, console2, hode.js shell, windows powershell, cygwin.  note any differences.__
+
+http://dailyjs.com/2012/05/03/windows-and-node-1/
+
+
+To launch the node.js REPL, simply type node in the command prompt. Success if the prompt changes to the node REPL.
+
+```cmdprompt
+node
+```
+
+Exit the REPL to return to the command prompt (ctrl-d to exit). Check if npm is setup correctly.  The following search should load npm and return matching search results.
+
+```cmdprompt
+npm search yo
+```
+
+Follow the instructions for installing yeoman:
+
+http://yeoman.io/learning/
+
+```bash
+npm install -g yo
+```
+
+_if your npm version < 1.2.10 then you will also have to install grunt and bower._
+
+```bash
+npm install -g grunt-cli bower
+```
 
 
 ## Setup
