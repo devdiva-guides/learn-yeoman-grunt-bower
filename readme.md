@@ -1,4 +1,4 @@
-# Workflow Automation: Yeoman, Grunt and Bowewr
+# Workflow Automation: Yeoman, Grunt and Bower
 
 Sometimes refered to as the "modern front-end workflow" these three tools are used for front-end app development.
 
